@@ -12,9 +12,9 @@
     "dev_server_port": 3000
   },
   "scripts": {
-    "build": "webpack --mode production",
-    "build:dev": "webpack --mode development",
-    "dev-server": "webpack serve --mode development",
+    "build": "npx webpack --mode production",
+    "build:dev": "npx webpack --mode development",
+    "dev-server": "npx webpack serve --mode development",
     "lint": "office-addin-lint check",
     "lint:fix": "office-addin-lint fix",
     "prettier": "office-addin-lint prettier",
@@ -23,7 +23,7 @@
     "start": "office-addin-debugging start manifest.json",
     "stop": "office-addin-debugging stop manifest.json",
     "validate": "office-addin-manifest validate manifest.json",
-    "watch": "webpack --mode development --watch"
+    "watch": "npx webpack --mode development --watch"
   },
   "dependencies": {
     "core-js": "^3.36.0",
