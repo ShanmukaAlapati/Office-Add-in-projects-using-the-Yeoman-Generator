@@ -100,7 +100,8 @@
                     ],
                     "tabs": [
                         {
-                            "builtInTabId": "TabDefault",
+                            "id": "CustomTab",
+                            "label": "Contoso",
                             "groups": [
                                 {
                                     "id": "msgReadGroup",

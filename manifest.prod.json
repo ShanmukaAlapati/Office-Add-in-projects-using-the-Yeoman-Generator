@@ -14,7 +14,7 @@
     "websiteUrl": "https://www.contoso.com",
     "privacyUrl": "https://www.contoso.com/privacy",
     "termsOfUseUrl": "https://www.contoso.com/servicesagreement"
-  },
+  },    
 
   "name": {
     "short": "Basic Office Add-in- online",
