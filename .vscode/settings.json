@@ -1,0 +1,9 @@
+{
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript"
+    ],
+    "json.schemaDownload.enable": true
+  }
+  
